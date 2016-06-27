@@ -14,3 +14,10 @@ Add flexbox classes to Bootstrap
 * .justify-sm-space-between
 * .justify-md-space-between
 * .justify-lg-space-between
+
+#### To add "flex-grow: 1" use following classes across viewport breakpoints:
+* .flex-grow-fill
+* .flex-grow-xs-fill
+* .flex-grow-sm-fill
+* .flex-grow-md-fill
+* .flex-grow-lg-fill
