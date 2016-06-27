@@ -3,6 +3,7 @@ Add flexbox classes to Bootstrap
 
 ### How to use
 #### To add "display: flex" use following classes across viewport breakpoints:
+* .visible-flex
 * .visible-xs-flex
 * .visible-sm-flex
 * .visible-md-flex

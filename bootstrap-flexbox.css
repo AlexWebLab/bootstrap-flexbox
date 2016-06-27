@@ -1,9 +1,8 @@
 /* display: flex */
-.visible-xs-flex,
-.visible-sm-flex,
-.visible-md-flex,
-.visible-lg-flex {
-    display: none !important;
+.visible-flex {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
 }
 @media (max-width: 767px) {
     .visible-xs-flex {
@@ -31,6 +30,27 @@
         display: -webkit-box !important;
         display: -ms-flexbox !important;
         display: flex !important;
+    }
+}
+/* override hidden classes */
+@media (max-width: 767px) {
+    .hidden-xs {
+        display: none !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .hidden-sm {
+        display: none !important;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .hidden-md {
+        display: none !important;
+    }
+}
+@media (min-width: 1200px) {
+    .hidden-lg {
+        display: none !important;
     }
 }
 
