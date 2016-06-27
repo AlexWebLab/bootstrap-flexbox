@@ -34,6 +34,7 @@
 }
 
 /* IE 10-11 patch */
+.visible-flex > *,
 .visible-xs-flex > *,
 .visible-sm-flex > *,
 .visible-md-flex > *,
