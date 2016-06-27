@@ -1,17 +1,24 @@
 /* display: flex */
-.visible-xs-flex {
+.visible-flex {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
 }
-@media (min-width: 768px) {
+@media (max-width: 767px) {
+    .visible-xs-flex {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
     .visible-sm-flex {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
     }
 }
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199px) {
     .visible-md-flex {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -37,19 +44,26 @@
 }
 
 /* justify-content: space-between */
-.justify-xs-space-between {
+.justify-space-between {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
 }
-@media (min-width: 768px) {
+@media (max-width: 767px) {
+    .justify-xs-space-between {
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
     .justify-sm-space-between {
         -webkit-box-pack: justify;
             -ms-flex-pack: justify;
                 justify-content: space-between;
     }
 }
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199px) {
     .justify-md-space-between {
         -webkit-box-pack: justify;
             -ms-flex-pack: justify;
@@ -65,19 +79,26 @@
 }
 
 /* flex-grow: 1 */
-.flex-grow-xs-fill {
+.flex-grow-fill {
     -webkit-box-flex: 1;
         -ms-flex-positive: 1;
             flex-grow: 1;
 }
-@media (min-width: 768px) {
+@media (max-width: 767px) {
+    .flex-grow-xs-fill {
+        -webkit-box-flex: 1;
+            -ms-flex-positive: 1;
+                flex-grow: 1;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
     .flex-grow-sm-fill {
         -webkit-box-flex: 1;
             -ms-flex-positive: 1;
                 flex-grow: 1;
     }
 }
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199px) {
     .flex-grow-md-fill {
         -webkit-box-flex: 1;
             -ms-flex-positive: 1;
