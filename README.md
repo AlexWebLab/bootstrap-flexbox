@@ -9,6 +9,7 @@ Add flexbox classes to Bootstrap
 * .visible-lg-flex
 
 #### To add "justify-content: space-between" use following classes across viewport breakpoints:
+* .justify-space-between
 * .justify-xs-space-between
 * .justify-sm-space-between
 * .justify-md-space-between
