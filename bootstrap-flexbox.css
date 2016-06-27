@@ -1,32 +1,32 @@
 /* display: flex */
-.visible-flex {
+.flex {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
 }
 @media (max-width: 767px) {
-    .visible-xs-flex {
+    .flex-xs {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-    .visible-sm-flex {
+    .flex-sm {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
     }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-    .visible-md-flex {
+    .flex-md {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
     }
 }
 @media (min-width: 1200px) {
-    .visible-lg-flex {
+    .flex-lg {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -34,11 +34,11 @@
 }
 
 /* IE 10-11 patch */
-.visible-flex > *,
-.visible-xs-flex > *,
-.visible-sm-flex > *,
-.visible-md-flex > *,
-.visible-lg-flex > * {
+.flex > *,
+.flex-xs > *,
+.flex-sm > *,
+.flex-md > *,
+.flex-lg > * {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 auto;
             flex: 0 1 auto;
