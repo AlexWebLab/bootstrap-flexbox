@@ -43,6 +43,36 @@
             flex: 0 1 auto;
 }
 
+/* flex-wrap: wrap */
+.flex-wrap {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+@media (max-width: 767px) {
+    .flex-xs-wrap {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .flex-sm-wrap {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .flex-md-wrap {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+}
+@media (min-width: 1200px) {
+    .flex-lg-wrap {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+}
+
 /* justify-content: space-between */
 .justify-space-between {
     -webkit-box-pack: justify;
@@ -78,6 +108,41 @@
     }
 }
 
+/* justify-content: flex-end */
+.justify-flex-end {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+@media (max-width: 767px) {
+    .justify-xs-flex-end {
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .justify-sm-flex-end {
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .justify-md-flex-end {
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+    }
+}
+@media (min-width: 1200px) {
+    .justify-lg-flex-end {
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+    }
+}
+
 /* flex-grow: 1 */
 .flex-grow-fill {
     -webkit-box-flex: 1;
@@ -110,5 +175,27 @@
         -webkit-box-flex: 1;
             -ms-flex-positive: 1;
                 flex-grow: 1;
+    }
+}
+
+/* reset flex */
+@media (max-width: 767px) {
+    .no-flex-xs {
+        display: block !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .no-flex-sm {
+        display: block !important;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .no-flex-md {
+        display: block !important;
+    }
+}
+@media (min-width: 1200px) {
+    .no-flex-lg {
+        display: block !important;
     }
 }
