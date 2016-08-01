@@ -38,7 +38,13 @@ Add flexbox classes to Bootstrap
 * .flex-grow-lg-fill
 
 #### To remove "display: flex" and add "display: block" use following classes:
-* .no-flex-xs
-* .no-flex-sm
-* .no-flex-md
-* .no-flex-lg
+* .no-flex-xs-block
+* .no-flex-sm-block
+* .no-flex-md-block
+* .no-flex-lg-block
+
+#### To remove "display: flex" and add "display: inline-block" use following classes:
+* .no-flex-xs-inline-block
+* .no-flex-sm-inline-block
+* .no-flex-md-inline-block
+* .no-flex-lg-inline-block

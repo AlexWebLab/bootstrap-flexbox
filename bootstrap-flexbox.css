@@ -181,22 +181,34 @@
 
 /* reset flex */
 @media (max-width: 767px) {
-    .no-flex-xs {
+    .no-flex-xs-block {
+        display: block !important;
+    }
+    .no-flex-xs-inline-block {
         display: block !important;
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-    .no-flex-sm {
+    .no-flex-sm-block {
+        display: block !important;
+    }
+    .no-flex-sm-inline-block {
         display: block !important;
     }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-    .no-flex-md {
+    .no-flex-md-block {
+        display: block !important;
+    }
+    .no-flex-md-inline-block {
         display: block !important;
     }
 }
 @media (min-width: 1200px) {
-    .no-flex-lg {
+    .no-flex-lg-block {
+        display: block !important;
+    }
+    .no-flex-lg-inline-block {
         display: block !important;
     }
 }
