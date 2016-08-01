@@ -37,6 +37,23 @@ Add flexbox classes to Bootstrap
 * .flex-grow-md-fill
 * .flex-grow-lg-fill
 
+#### To center elements (horizontally, vertically or both) use following classes:
+* .flex-horizontal-centered
+* .flex-vertical-centered
+* .flex-centered
+* .flex-xs-horizontal-centered
+* .flex-xs-vertical-centered
+* .flex-xs-centered
+* .flex-sm-horizontal-centered
+* .flex-sm-vertical-centered
+* .flex-sm-centered
+* .flex-md-horizontal-centered
+* .flex-md-vertical-centered
+* .flex-md-centered
+* .flex-lg-horizontal-centered
+* .flex-lg-vertical-centered
+* .flex-lg-centered
+
 #### To remove "display: flex" and add "display: block" use following classes:
 * .no-flex-xs-block
 * .no-flex-sm-block
