@@ -65,3 +65,6 @@ Add flexbox classes to Bootstrap
 * .no-flex-sm-inline-block
 * .no-flex-md-inline-block
 * .no-flex-lg-inline-block
+
+On the next release:
+* flex-direction
