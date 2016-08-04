@@ -68,3 +68,4 @@ Add flexbox classes to Bootstrap
 
 On the next release:
 * flex-direction
+* no-shrink
